@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://vjs.zencdn.net/7.17.0/video-js.css" rel="stylesheet" />
+  <link href="https://unpkg.com/@videojs/themes@1/dist/forest/index.css" rel="stylesheet">
+  <title>Video Stream</title>
+
+</head>
+
+<body>
+  <video id="my-video" class="video-js vjs-theme-forest" controls preload="auto" poster="MY_VIDEO_POSTER.jpg"
+    data-setup='{ "aspectRatio":"640:267", "playbackRates": [0.5, 1, 1.5, 2] }'>
+    <source src="/video" type="video/mp4" />
+  </video>
+
+  <script src="https://vjs.zencdn.net/7.17.0/video.min.js"></script>
+</body>
+
+</html>
